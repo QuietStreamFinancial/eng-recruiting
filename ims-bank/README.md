@@ -28,7 +28,7 @@ Your challenge is to consume the transactions from this API and use the
 information to build a summary table for a bank manager.
 
 1. Call the API to retrieve the list of transactions
-    * Make a GET request to: [API URL](#)
+    * Make a GET request to: [https://quietstreamfinancial.github.io/eng-recruiting/transactions.json](https://quietstreamfinancial.github.io/eng-recruiting/transactions.json)
 2. Use the results to build a table that contains columns for a customer's name,
    the total balance of their checking accounts, the total balance of their savings
    accounts, and the total balance of all of their accounts.
@@ -38,8 +38,8 @@ use daily: Ruby or React/JavaScript.
 
 We have created starter sandboxes for each of these
 
-* [React/JavaScript CodeSandbox](https://codesandbox.io/s/imsbank-hn4fm?file=/README.md) ([GitHub mirror](#))
-* [Ruby/Sinatra Replit](https://replit.com/@aseehra/ImsBank) ([GitHub mirror](#))
+* [React/JavaScript CodeSandbox](https://codesandbox.io/s/imsbank-hn4fm?file=/README.md) ([GitHub mirror](https://github.com/QuietStreamFinancial/eng-recruiting/tree/main/ims-bank/javascript))
+* [Ruby/Sinatra Replit](https://replit.com/@aseehra/ImsBank) ([GitHub mirror](https://github.com/QuietStreamFinancial/eng-recruiting/tree/main/ims-bank/ruby))
 
 **To complete the challenge, fork _one_ of the two sandboxes above and complete
 the tasks above. Submit the link to your fork to your recruiter contact.**
