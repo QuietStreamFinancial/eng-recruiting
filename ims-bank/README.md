@@ -29,9 +29,9 @@ information to build a summary table for a bank manager.
 
 1. Call the API to retrieve the list of transactions
     * Make a GET request to: [https://quietstreamfinancial.github.io/eng-recruiting/transactions.json](https://quietstreamfinancial.github.io/eng-recruiting/transactions.json)
-2. Use the results to build a table that contains columns for a customer's name,
-   the total balance of their checking accounts, the total balance of their savings
-   accounts, and the total balance of all of their accounts.
+2. Use the results to display a table that contains columns for a customer's
+   name, the total balance of their checking accounts, the total balance of
+   their savings accounts, and the total balance of all of their accounts.
 
 You can choose to complete this coding challenge in either of the languages we
 use daily: Ruby or React/JavaScript.
@@ -47,7 +47,6 @@ the tasks above. Submit the link to your fork to your recruiter contact.**
 ### Expectations
 
 * Your solution executes without crashing
-* Your solution does not print any errors to the console
 * We don't expect you to spend more than two hours on this exercise
 
 ## System design challenge
