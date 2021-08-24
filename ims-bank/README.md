@@ -77,6 +77,11 @@ etc.)
 Bank managers would also like this data model to support joint accounts
 (accounts that are shared between two customers).
 
+Some features that bank managers would like this data model to support:
+* Displaying a ledger of transactions in a specific date range
+* Determining the current balance of an account
+* Determining the amount of money a customer has across all their accounts
+
 Please provide a written document (we do not want you to code this) that
 describes your data model. Feel free to include diagrams if they help you to
 explain.
