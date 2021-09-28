@@ -1,7 +1,5 @@
 # IMS Bank Exercise
 
-## Scenario
-
 A financial processing system exposes an API for transactions. The result of a
 GET request to this API is a JSON array of records with information about the
 user, bank account and transaction:
@@ -49,26 +47,16 @@ the tasks above. Submit the link to your fork to your recruiter contact.**
 * Your solution executes without crashing
 * We don't expect you to spend more than two hours on this exercise
 
+<br>
+
+---
+
+<br>
+
 ## System design challenge
 
 We would like you to design a data model for the transaction data returned from
-the API:
-
-```json
-[
-  {
-    "id": 2,
-    "transaction_amount": "$-179.62",
-    "date": "2021-05-23T22:53:17Z",
-    "account_id": "21",
-    "account_number": 5048373234301855,
-    "account_type": "savings",
-    "customer_id": 9129,
-    "customer_name": "Felipe Vigus",
-    "customer_email": "fvigus1@bbc.co.uk"
-  }
-]
-```
+the API above.
 
 The data model should enable bank managers to efficiently perform queries over
 it. This data model should be usable in a database (e.g. PostgreSQL, MongoDB,
