@@ -32,7 +32,7 @@ information to build a summary table for a bank manager.
    their savings accounts, and the total balance of all of their accounts.
 
 You can choose to complete this coding challenge in either of the languages we
-use daily: Ruby or React/JavaScript.
+use daily: Ruby or React/Typescript.
 
 We have created starter sandboxes for each of these
 
