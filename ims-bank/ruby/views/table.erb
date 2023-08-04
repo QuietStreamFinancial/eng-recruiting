@@ -1,1 +1,17 @@
-<p>Replace this with your summary table</p>
+<h1>Account Summaries</h1>
+<table>
+<tr>
+    <th>Customer Name</th>
+    <th>Checking Balance</th>
+    <th>Savings Balance</th>
+    <th>Total Balance</th>
+</tr>
+<% @summary_data.each do |customer, balances| %>
+    <tr>
+    <td><%= customer %></td>
+    <td>$<%= balances['Checking'].round(2) %></td>
+    <td>$<%= balances['Savings'].round(2) %></td>
+    <td>$<%= balances['Total'].round(2) %></td>
+    </tr>
+<% end %>
+</table>
