@@ -1,0 +1,28 @@
+table{
+  table-layout: fixed;
+  width: 70%;
+  border: 1px solid purple;
+  text-align: center;
+  border-collapse: collapse;
+}
+tr.active {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+thead {
+  background-color: #3f87a6;
+  color: #fff;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  height: 10px;
+  vertical-align: bottom;
+}

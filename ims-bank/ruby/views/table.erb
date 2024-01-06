@@ -1,1 +1,28 @@
-<p>Replace this with your summary table</p>
+<table class="standard_recordset">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Account Type</th>
+      <th>Balance</th>
+      <th>Total Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @account_details.group_by{|key| key[:name] }.each do |key, value| %>
+       <% value.each_with_index do |account, index|%>
+        <tr>
+          <% if index == 0 %>
+            <td><%= account[:name] %></td>
+          <% else %>
+            <td/>
+          <% end %>
+          <td><%= account[:account_type] %></td>
+          <td><%= account[:balance] %></td>
+          <% if index == 0 %>
+            <td><%= value.map { |h| h[:balance] }.sum.round(2) %></td>
+          <% end %>
+        <tr>
+       <% end %>
+    <% end %>
+  </tbody>
+</table>
